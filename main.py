@@ -1,12 +1,8 @@
-
 def hello_world(a):
-    print(f"Hello World! {a}")
+    msg = f"Hello World! {a}"
+    print(msg)
+
+    return msg
+
 if __name__ == "__main__":
     hello_world("Black")
-
-
-def hello_world(a):
-    print(f"Hello World! {a}")
-if __name__ == "__main__":
-    hello_world("Black")
-
